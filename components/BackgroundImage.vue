@@ -12,9 +12,20 @@ const positionClasses = {
 </script>
 
 <template>
-  <div class="backdrop fixed z-[-1] inset-0 overflow-hidden bg-indigo-50" :class="className">
-    <img class="absolute top-0" :class="[positionClasses[position]]" src="/assets/images/bg-3.png" alt="" width="918"
-      height="1495" priority unoptimized>
+  <div
+    class="backdrop fixed z-[-1] inset-0 overflow-hidden bg-indigo-50"
+    :class="className"
+  >
+    <img
+      class="absolute top-0"
+      :class="[positionClasses[position]]"
+      src="/assets/images/bg-3.png"
+      alt=""
+      width="918"
+      height="1495"
+      priority
+      unoptimized
+    >
     <div class="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white" />
     <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white" />
   </div>
