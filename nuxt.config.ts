@@ -16,6 +16,7 @@ export default defineNuxtConfig({
     strict: true,
     // typeCheck: true
   },
+
   content: {
     documentDriven: true,
   },
@@ -28,6 +29,7 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     'dayjs-nuxt',
   ],
+
   shadcn: {
     /**
      * Prefix for all the imported component
@@ -39,6 +41,7 @@ export default defineNuxtConfig({
      */
     componentDir: './components/ui',
   },
+
   app: {
     head: {
       link: [
@@ -56,4 +59,6 @@ export default defineNuxtConfig({
       standalone: false,
     },
   },
+
+  compatibilityDate: '2025-01-15',
 })
