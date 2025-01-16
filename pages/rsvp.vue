@@ -105,7 +105,7 @@ function onSubmit(values: Record<string, any>) {
 </script>
 
 <template>
-  <NuxtLayout>
+  <div>
     <Container
       v-if="true"
       class="py-20 sm:py-32"
@@ -200,5 +200,5 @@ function onSubmit(values: Record<string, any>) {
         </Button>
       </div>
     </Container>
-  </NuxtLayout>
+  </div>
 </template>
