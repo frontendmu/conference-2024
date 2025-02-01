@@ -23,7 +23,7 @@ const { toc } = useContent()
   </div>
   <div class="w-full bg-yellow-100 p-4 text-center mt-16 font-bold">
     <p>
-      This document is outdated and is being actively reviewed for the 2025 event. <br /> Please check back soon or contact the organizer.
+      This document is outdated and is being actively reviewed for the upcoming event. <br /> Please check back soon or contact the organizer.
     </p>
   </div>
   <main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 md:grid md:pt-24 pt-4 grid-cols-8">

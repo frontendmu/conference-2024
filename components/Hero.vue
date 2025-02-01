@@ -19,7 +19,7 @@ const appConfig = useAppConfig()
               href="https://frontend.mu/meetups"
             >50 successful meetups
               organized</a>, we are proud to bring you a scaled up version, but still as much fun: The Web Conference.
-            A two day event where you can learn from the best in the industry,  meet other developers and professionals, build new connections and have fun while at it.
+            A two day event where you can learn from the best in the industry, meet other developers and professionals, build new connections and have fun while at it.
           </p>
         </div>
         <!-- <Button href="#" class="mt-10 w-full sm:hidden">
